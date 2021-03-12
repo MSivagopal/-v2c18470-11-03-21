@@ -1,0 +1,40 @@
+package com.test.oops;
+
+import java.util.Scanner;
+
+public class Strbuildermethods {
+
+	public static void main(String[] args) {
+		
+		StringBuilder value1 = new StringBuilder("");
+		StringBuilder value2 = new StringBuilder("");
+		System.out.println("Enter the Data");
+		Scanner sc = new Scanner(System.in);
+		value1.append(sc.nextLine());
+		value2.append(sc.nextLine());
+		
+		
+		value1.append(value2);
+		System.out.println("the append value:" +value1);
+		
+		value1.insert(1,value2);
+		System.out.println("the inserted value:" +value1);
+		
+		value1.replace(1,3,"mass");
+		System.out.println("the replaced value:" +value1);
+		
+		value1.delete(1, 3);
+		System.out.println("the deleted value:" +value1);
+		
+		value1.reverse();
+		System.out.println("the reversed value:" +value1);
+		
+		System.out.println("the length:" +value1.length());
+		
+		System.out.println("display's the word starting from 3 letter:" +value1.substring(2));
+		
+		System.out.println("display's the word starting from 3 letter and end at 5 letter:" +value1.substring(2,5));
+		
+	}
+
+}

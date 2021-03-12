@@ -1,0 +1,35 @@
+package com.test.oops;
+
+import java.util.Scanner;
+
+public class Strcalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String num1;
+		String num2;
+		System.out.println("Enter the String values");
+		Scanner sc = new Scanner(System.in);
+		num1 = sc.nextLine();
+		num2 = sc.nextLine();
+		int n1=Integer.parseInt(num1);
+		int n2=Integer.parseInt(num2);
+		int result;
+		System.out.println("Enter the operations: + - * /");
+		char op = sc.next().charAt(0);
+		switch(op) {
+		case '+': result=n1+n2;
+		break;
+		case '-': result=n1-n2;
+		break;
+		case '*': result=n1*n2;
+		break;
+		case '/': result=n1/n2;
+		break;
+		default : System.out.println("Error");
+		return;
+		}
+		System.out.println("Results:" + n1 + " " + op + " " + n2 + " = " + result);
+	}
+
+}

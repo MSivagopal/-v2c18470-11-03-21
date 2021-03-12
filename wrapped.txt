@@ -1,0 +1,33 @@
+package com.test.oops;
+
+public class Wrapperclass {
+
+	public static void main(String[] args) {
+		//wrapped objects
+		Integer wpint = 14;
+		Float wpfloat = 07.102F;
+		Character wpchar = 's';
+		Double wpdouble = 14.30;
+		System.out.println(wpint);
+		System.out.println(wpfloat);
+		System.out.println(wpchar);
+		System.out.println(wpdouble);
+		
+		//primitive to wrapped
+		int s = 1000;
+		Integer wpiint = new Integer(s);
+		System.out.println(wpiint);
+		
+		char c = 's';
+		Character wpcchar = new Character(c);
+		System.out.println(wpcchar);
+		
+		//wrapped to primitive
+		int intvalue = wpiint;
+		System.out.println(intvalue);
+		char charvalue = wpcchar;
+		System.out.println(charvalue);
+		
+		
+	}
+}

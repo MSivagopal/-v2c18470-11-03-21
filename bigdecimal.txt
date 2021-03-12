@@ -1,0 +1,22 @@
+package com.test.oops;
+
+import java.math.BigDecimal;
+
+public class Bigdec {
+
+	public static void main(String[] args) {
+		double a = 0.03;
+		double b = 0.02;
+		double c = a-b;
+		System.out.println(c);
+		// O/P=0.009999999999999998
+		
+		BigDecimal bd1 = new BigDecimal("0.03");
+		BigDecimal bd2 = new BigDecimal("0.02");
+		System.out.println(bd1.subtract(bd2));
+		// O/P=0.01
+		
+		
+	}
+
+}

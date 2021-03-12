@@ -1,0 +1,22 @@
+package com.test.oops;
+
+class program 
+{
+	int x=1000;
+	
+	class program2
+	{
+		int y=2;
+	}
+}
+
+public class Nestedclass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		program a = new program();
+		program.program2 b = a.new program2();
+		System.out.println(a.x + b.y);
+	}
+
+}

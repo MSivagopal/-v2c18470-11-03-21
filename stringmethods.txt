@@ -1,0 +1,77 @@
+package com.test.oops;
+
+import java.util.Scanner;
+
+public class Stringmethods {
+
+	public static void main(String[] args) {
+		String value1="";
+		//String value2="";
+		System.out.println("Enter the String values");
+		Scanner sc = new Scanner(System.in);
+		value1 = sc.nextLine();
+		//value2 = sc.nextLine();
+		/*
+		char ch = value1.charAt(5);
+		System.out.println("5th index value: "+ch);
+		
+		//substring
+		String ch = value1.substring(2,4);
+		String ch1 = value1.substring(2);
+		System.out.println(ch);
+		System.out.println(ch1);
+		
+		//last index value
+		int strlength = value1.length();
+		char b = value1.charAt(strlength-1);
+		System.out.println("last value: "+b);
+		
+		//lastindexof
+		int value3 = value1.lastIndexOf("go");
+		System.out.println(value3);
+		
+		//concat
+		String value3 =value1.concat(value2);
+		System.out.println("added value: "+value3);
+		
+		//contains
+		System.out.println("if the value has the content then true, if not false");
+		System.out.println(value1.contains("siva"));
+		System.out.println(value1.contains("master"));
+		
+		//endwith
+		if(value1.endsWith("@gmail.com"))
+		{
+			System.out.println("ends with .com");
+		}
+		else
+		{
+			System.out.println("does not end with .com");
+		}
+		
+		//equal
+		System.out.println(value1.equals(value2));
+		
+		//equalignorecase(does not matter uppercase or lowercase)
+		System.out.println(value1.equals(value2));
+		
+		//indexof
+		int value3 = value1.indexOf("va");
+		System.out.println(value3);
+		
+		//isempty(if empty true, if not false)
+		System.out.println(value1.isEmpty());
+		System.out.println(value2.isEmpty());
+		
+		//length
+		System.out.println("the length:" +value1.length());
+		
+		//replace
+		System.out.println(value1.replace('a',' '));
+		
+		//replaceall
+		System.out.println(value1.replace("ag"," "));
+		*/
+	}
+
+}
